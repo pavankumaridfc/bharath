@@ -1,0 +1,905 @@
+/*===MEDIA QUERIES
+=======================================================*/
+
+
+ 
+  @media only screen and (min-device-width: 1025) and (max-device-width: 1280px) {
+ 
+	#container {
+		width: 1130px;
+	}
+} 
+ 
+  /********************************************************************************************
+  *********************************************************************************************
+  *
+  *
+  *					MEDIA QUERIES FOR iPAD DEVICES
+  *
+  *
+  *********************************************************************************************
+  ********************************************************************************************/
+  @media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation : portrait), 
+ (min-width: 768px) and (max-width: 1024px) {
+ 
+ body {
+		background: url(../img/backgrounds/body/pattern-4.png) fixed center #f7f7f7;
+	}
+ 
+ }
+
+ 
+ @media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation : portrait), 
+ (min-width: 768px) and (max-width: 1024px) and (orientation : landscape), (min-device-width: 1025) and (max-device-width: 1280px) {
+ 		
+	#container {
+		width: 762px;		
+	}
+ 
+	#left-side {	
+		width: 100%;
+		left: 0;
+		height: auto;
+		position: relative;		
+		z-index: 100;	
+		border-bottom: 1px solid #fff;
+		-webkit-box-shadow: none;
+		-moz-box-shadow: none;
+		box-shadow: none;
+	}
+	
+	#left-inner {
+		background:none;	
+		padding: 0;
+	}
+		
+	#logo {
+		float: left;
+		margin-left: 30px;
+		margin-top: 70px;
+		padding-bottom: 10px;
+	}
+	
+	#social-networks {
+		top: 76px;
+		right: 30px;
+		bottom: auto;
+	}
+	
+	#copyright {
+		top: 136px;
+		bottom: auto;
+		right: 30px;
+	}
+	
+	.nav {display: none;}
+	
+	#navigation {
+		width: 762px;
+		position: absolute;
+		z-index: 99;
+		background: #3f3f3f;
+		padding: 10px 0;
+		border-bottom: 1px solid #2f2f2f;
+	}
+	
+	#navigation select {
+		height: 35px;
+		margin: 0 auto;
+		width: 50%;
+		display: block;
+		border: 1px solid #3f3f3f;
+	}
+	
+	#navigation select option {
+		padding: 8px;
+	}
+		
+	#right-side {		
+		float: none;	
+		width: 702px;
+		-webkit-box-shadow: none;
+		box-shadow: none;
+	}
+	
+	.tagline {
+		width: 650px;
+	}
+	
+	.page {
+		padding-top: 80px;
+		margin: 0 auto 300px auto;
+		width: 690px;
+	}	
+
+	
+ } 	
+ 
+
+	
+
+
+/*===COMMON QUERIES
+=======================================================*/
+
+ @media only screen and (min-width: 480px) and (max-width: 767px), (min-width: 320px) and (max-width: 480px), (max-width: 320px) {
+
+		
+	#container {
+		width: 100%;
+	}
+ 
+	#left-side {	
+		width: 100%;
+		height: auto;	
+		position: static;
+		border-bottom: 1px solid #fff;
+	}
+	
+	#left-inner {
+		padding: 0;	
+		border-bottom: 1px solid #ccc;		
+		background: none;
+	}
+			
+	
+/*====NAVIGATION
+=======================================================*/	
+	.nav {
+		display: none;
+	}
+
+	#navigation {
+		width: 100%;
+		position: fixed;
+		z-index: 99;
+		background: #3f3f3f;
+		padding: 10px 0;
+		border-bottom: 1px solid #2f2f2f;
+	}
+	
+	#navigation select {
+		height: 35px;
+		margin: 0 auto;
+		width: 50%;
+		display: block;
+		border: 1px solid #3f3f3f;
+	}
+	
+	#navigation select option {
+		padding: 8px;
+	}
+	
+	
+	#right-side {		
+		float: none;	
+		width: 100%;
+		padding-left: 0;
+		padding-right: 0;
+		margin: 0 auto;
+		-webkit-box-shadow: none;
+		-moz-box-shadow: none;
+		box-shadow: none;		
+	}
+		
+	
+	/*====COLUMN TITLE
+=======================================================*/
+
+	.col-title {
+		border-left: none;
+		border-bottom-style: solid;
+		border-bottom-width: 2px;
+		padding-left: 0;
+		padding-top: 2px;
+		padding-bottom: 15px;
+		margin-bottom: 15px;
+		text-align: center;
+	}
+	
+/*====GRID
+=======================================================*/
+
+	.one-half, .one-third, .two-third, .one-half,
+	.one-fifth, .two-fifth, .three-fifth, .one-sixth, .five-sixth, .full-width, .full-width-margin {
+		width: 100%;
+		float: none;	
+		margin: 0 0 15px 0;
+		clear: both;
+	}
+		
+	.box {
+		margin-bottom: 30px;
+	}
+
+	
+	
+/*====PORTFOLIO
+=======================================================*/	
+		
+	.portfolio-thumbs {
+		width: 100%;
+	}	
+	
+	.portfolio-thumbs li {
+		width: 221px;
+		height: 221px;
+	}
+
+	.filter li {
+		float: left;
+		margin-right: 3px;
+		margin-left: 0;
+	}
+
+
+/*====CONTENT SLIDER (ANYTHING SLIDER)
+=======================================================*/
+
+	#content-slider-container {
+		width: 100%;
+		height: 310px;
+		position: relative;
+		overflow: hidden;
+	}
+
+	#content-slider {
+		height: 310px;
+		width: 100%;
+	}
+
+	.slider-img  {
+		display: none;
+	}
+
+	.description {
+		text-align: center;
+		width: 100%;
+	}
+
+
+/*====NIVO SLIDER
+=======================================================*/
+
+	#featured {
+		position: relative;
+	}
+
+	
+/*====BLOG
+=======================================================*/
+
+	.blog-preview img {
+		max-width: 100%;
+	}
+
+	.blog-preview iframe {
+		width: 100%;
+	}
+
+	.blog-preview {
+		width: 100%;
+	}
+
+	.meta {
+		width: auto;
+		float: none;
+	}
+
+	.date {
+		float: left;
+		display: inline-block;
+		padding: 4px 14px 1px 14px;
+	}
+
+	.share-networks {
+		display: block !important;
+	}
+
+	.share-networks li {
+		display: block;
+		float: left;
+	}
+
+	.share-post {
+		margin-top: 0;
+	}
+
+	.share-btn {
+		display: none;
+	}
+
+	.blog-type {
+		float: left;
+	}
+
+	#google-map iframe {
+		width: 100%;
+	}
+
+	
+ } 	
+ 
+
+
+  /*
+
+For screen with the minimum width of 480px
+
+*/ 
+ 
+  @media only screen and (min-width: 480px) and (max-width: 767px) {  
+  
+	body {
+		background: none !important;	
+	}
+ 
+	#logo {
+		float: left;
+		margin-left: 30px;
+		margin-top: 84px;
+		padding-bottom: 10px;
+	}
+	
+	#social-networks {
+		top: 89px;
+		right: 30px;
+		bottom: auto;
+	}
+	
+	#copyright {
+		top: 149px;
+		bottom: auto;
+		right: 30px;
+	}
+	
+	.page {
+		width: 449px;
+		margin: 0 auto;
+		padding: 105px 15px;
+	}
+	
+	.tagline {
+		width: auto;
+	}
+	
+	.tagline-text {
+		width: 70%;
+	}
+	
+	.tagline h2 {
+		line-height: 25px;
+	}
+	
+	.tagline-btn {
+		margin-right: 20px;
+		margin-top: 30px;
+	}
+	
+	.team {
+		width: 480px;
+		overflow: hidden;
+	}
+	
+	.filter {
+		float: none;
+	}
+	
+	#slider-container {
+		width: 449px;
+		height: 221px;
+	}
+	
+	#nivo-slider {
+		width: 449px;
+		height: 224px;	
+	}
+	
+	.nivo-caption {
+		bottom: 0;
+	}
+
+	.nivo-caption h3 {
+		padding: 8px 10px;
+	}
+
+	.nivo-caption p {
+		padding: 10px;
+		margin-bottom: 15px;
+	}
+	
+}
+
+  /*
+
+For screen with the width of 320
+
+*/ 
+ 
+  @media only screen and (min-width: 320px) and (max-width: 480px) {
+ 
+	body {
+		background: none !important;	
+	}
+				
+	#logo {
+		margin: 75px 0 0 0;
+		width: 100%;
+		padding-bottom: 10px;
+		text-align: center;
+	}
+	
+	#social-networks {
+		position: static;
+		bottom: 30px;
+		right: 40px;
+	}
+
+	#social-networks h3 {
+		display: none;
+	}
+	
+	#social-networks {		
+		text-align: center;
+	}
+	
+	#social-links li {
+		float: none;
+		display: inline-block;
+		margin: 0 4px 4px 4px;
+	}
+	
+	#copyright {
+		position: static;
+		text-align: center;
+		margin-bottom: 15px;
+	}
+	
+	#navigation {
+		width: 100%;
+	}	
+	
+	.page {
+		width: 290px;
+		margin: 0 auto;
+		padding: 70px 15px; 
+	}
+	
+	.title {
+		font-size: 36px;
+	}
+	
+	.page-subtitle {
+		font-size: 21px;
+	}
+	
+	.tagline {
+		width: auto;
+	}
+	
+	.tagline h2 {
+		text-align: center;
+		font-size: 22px;
+	}
+	
+	.tagline-text {
+		width: 100%;
+		float: none;
+		text-align: center;
+	}
+	
+	.tagline-btn {
+		float: none;
+		margin: 0 auto 30px auto;		
+		width: 64px;
+	}
+	
+	.tagline-btn a {
+		float: none;
+		margin:0;
+	}	
+
+	
+/*====GRID
+=======================================================*/
+		
+	.team {
+		width: 290px;
+		overflow: hidden;
+	}
+	
+	.member {
+		float: none;
+		margin: 0 auto 15px auto;
+	}
+	
+/*====PORTFOLIO
+=======================================================*/	
+		
+	.portfolio-thumbs {
+		width: 222px;
+		padding: 0 34px;
+	}	
+
+	.filter {
+		float: none;
+		margin-bottom: 12px;
+	}
+	
+	.filter li a {
+		margin-bottom: 3px;
+	}
+
+/*====CONTENT SLIDER (ANYTHING SLIDER)
+=======================================================*/
+	.description h2 {
+		font-size: 47px;
+		line-height: 36px;
+	}
+	
+	.top-text {
+		font-size: 20px;
+	}	
+	
+	.bottom-text {
+		font-size: 22px; 
+	}
+
+/*====NIVO SLIDER
+=======================================================*/
+
+	#slider-container {
+		width: 290px;
+		height: 143px;
+	}
+
+	#nivo-slider {
+		width: 290px;
+		height: 146px;	
+	}
+		
+	.nivo-caption {
+		bottom: 20px;	
+		width: 250px;
+	}
+
+	.nivo-caption h3 {
+		padding: 6px 10px;
+		font-size: 18px;
+		
+	}
+
+	.nivo-caption p {
+		padding: 10px;
+		font-size: 10px;
+		line-height: 16px;
+		display: none;
+		margin-bottom: 15px;
+	}
+
+	
+/*====BLOG 
+=======================================================*/
+
+	.date {
+		float: left;
+		display: inline-block;
+		padding: 4px 10px 1px 10px;
+	}
+	
+	.date .day {
+		font-size: 18px;
+		line-height: 12px;
+		margin-top: 3px;
+	}
+	
+	.share-networks li {
+		width: 40px;
+		height: 40px;
+		display: block;
+		float: left;
+	}
+	
+	.share-networks li a, .blog-type {
+		height: 40px;
+		width: 40px;
+	}
+		
+	.comment-text {
+		margin-left: 0;
+	}
+
+	.comment-reply {
+		margin-left: 30px;
+	}
+
+	.avatar {
+		display: none;
+	}
+	
+	
+/*====CONTACT
+=======================================================*/	
+	
+	#contact-form {
+		width: 100%;
+	}
+	
+	#submit, #post-comment {
+		margin-left: 0;
+		float: none;
+		width: 100%;
+		padding: 12px 0;
+	}
+	
+	.textbox {		
+		width: 268px;
+	}
+	
+	#message, #comment-message {
+		width: 268px;
+	}
+
+	
+ }
+ 
+ 
+ 
+ /*
+
+For screen with the width of 320px
+
+*/ 
+ 
+  @media only screen and (max-width: 320px) {
+  
+  body {
+		background: none !important;	
+	}
+ 			
+	#logo {
+		margin: 75px 0 0 0;
+		width: 100%;
+		padding-bottom: 10px;
+		text-align: center;
+	}
+	
+	#social-networks {
+		position: static;
+		bottom: 30px;
+		right: 40px;
+	}
+
+	#social-networks h3 {
+		display: none;
+	}
+	
+	#social-networks {		
+		text-align: center;
+	}
+	
+	#social-links li {
+		float: none;
+		display: inline-block;
+		margin: 0 4px 4px 4px;
+	}
+	
+	#copyright {
+		position: static;
+		text-align: center;
+		margin-bottom: 15px;
+	}
+	
+/*====NAVIGATION
+=======================================================*/	
+		
+	.page {
+		width: 290px;
+		margin: 0 auto;
+		padding: 70px 5px;
+	}
+	
+	.title {
+		font-size: 36px;
+	}
+	
+	.page-subtitle {
+		font-size: 21px;
+	}
+	
+	.tagline {
+		width: auto;
+	}
+	
+	.tagline h2 {
+		text-align: center;
+		font-size: 22px;
+	}
+	
+	.tagline-text {
+		width: 100%;
+		float: none;
+		text-align: center;
+	}
+	
+	.tagline-btn {
+		float: none;
+		margin: 0 auto 30px auto;		
+		width: 64px;
+	}
+	
+	.tagline-btn a {
+		float: none;
+		margin:0;
+	}
+	
+	
+/*====GRID
+=======================================================*/
+		
+	.team {
+		width: 290px;
+		overflow: hidden;
+	}
+	
+	.member {
+		float: none;
+		margin: 0 auto 15px auto;
+	}
+	
+/*====PORTFOLIO
+=======================================================*/	
+		
+	.portfolio-thumbs {
+		width: 222px;
+		padding: 0 34px;
+	}	
+	
+	.portfolio-thumbs li {
+		width: 221px;
+		height: 221px;
+	}
+
+	.filter {
+		float: none;
+		margin-bottom: 12px;
+	}
+	
+	.filter li a {
+		margin-bottom: 3px;
+	}
+
+/*====CONTENT SLIDER (ANYTHING SLIDER)
+=======================================================*/
+
+	.description h2 {
+		font-size: 47px;
+		line-height: 36px;
+	}
+	
+	.top-text {
+		font-size: 20px;
+	}	
+	
+	.bottom-text {
+		font-size: 22px; 
+	}
+
+/*====NIVO SLIDER
+=======================================================*/
+
+	#slider-container {
+		width: 290px;
+		height: 143px;
+	}
+
+	#nivo-slider {
+		width: 290px;
+		height: 146px;	
+	}
+		
+	.nivo-caption {
+		bottom: 20px;	
+		width: 250px;
+	}
+
+	.nivo-caption h3 {
+		padding: 6px 10px;
+		font-size: 18px;
+		
+	}
+
+	.nivo-caption p {
+		padding: 10px;
+		font-size: 10px;
+		line-height: 16px;
+		display: none;
+		margin-bottom: 15px;
+	}
+
+/*====BLOG
+=======================================================*/
+
+
+	.date {
+		float: left;
+		display: inline-block;
+		padding: 4px 10px 1px 10px;
+	}
+	
+	.date .day {
+		font-size: 18px;
+		line-height: 12px;
+		margin-top: 3px;
+	}
+
+	.share-networks {
+		display: block !important;
+	}
+
+	.share-networks li {
+		width: 40px;
+		height: 40px;
+		display: block;
+		float: left;
+	}
+	
+	.share-networks li a, .blog-type {
+		height: 40px;
+		width: 40px;
+	}
+
+	.share-post {
+		margin-top: 0;
+	}
+
+	.share-btn {
+		display: none;
+	}
+
+	.blog-type {
+		float: left;
+	}
+	
+/*====BLOG COMMENTS
+=======================================================*/
+
+	.comment-text {
+		margin-left: 0;
+	}
+
+	.comment-reply {
+		margin-left: 30px;
+	}
+
+	.avatar {
+		display: none;
+	}
+	
+	
+/*====CONTACT
+=======================================================*/	
+
+	#contact-form {
+		width: 100%;
+	}
+	
+	#submit, #post-comment {
+		margin-left: 0;
+		float: none;
+		width: 100%;
+		padding: 12px 0;
+	}
+	
+	.textbox {		
+		width: 268px;
+	}
+	
+	#message, #comment-message {
+		width: 268px;
+	}
+	
+ }
+ 
+ 
+ 
