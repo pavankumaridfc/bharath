@@ -4777,7 +4777,7 @@
     .scoop[horizontal-layout="widebox"] .scoop-container{    width: 73%;}
     .scoop .scoop-brand a .scoop-brand-text{font-size: 11px;}
     .scoop[theme-layout="horizontal"][scoop-device-type="phone"] .scoop-header{margin-top: 5px;}
-    .scoop[theme-layout="horizontal"][scoop-device-type="phone"] .scoopbrand-xs .scoop-brand a{font-size: 15px !important;}
+    .scoop[theme-layout="horizontal"][scoop-device-type="phone"] .scoopbrand-xs .scoop-brand a{font-size: 1px !important;}
     .scoop .scoop-brand .menu-toggle a i{font-size: 14px;}
 	
 
@@ -4813,7 +4813,7 @@
     .skillbar-bar-style2 .skill-bar-percent {right: -30px;}
     .login-click .cont_menu {left: 68px;}
      .mr-left{margin-left: 0 !important;}
-     #biher-lis .dropdown{visibility: initial;}
+     #biher-lis .dropdown{visibility: collapse;}
      .login-click{position: absolute; right: 63px; top: 23px;}
      .header-r{text-align: right;}
      .admission-schhol-slide{padding: 0;}
