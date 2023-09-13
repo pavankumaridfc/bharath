@@ -1,0 +1,54 @@
+/* Desktop Main Menu Color */
+
+
+
+.wsmenu>.wsmenu-list {
+  background-color: #fff;
+}
+
+/* Mobile Header */
+
+.wsmenu>.wsmenu-list>li.headerbtns a.headerbtn01{
+  background-color: #d7412e;
+}
+
+.wsmenu>.wsmenu-list>li.headerbtns a.headerbtn02{
+  border-color: #d7412e;
+}
+
+.wsmenu>.wsmenu-list>li>a:after {
+  background-color: #f7d683;
+}
+
+
+.wsmobileheader {
+  background-color: #fff;
+}
+
+.wsmenu>.wsmenu-list>li>a {
+  color: #fff;
+}
+ 
+.wsmenu>.wsmenu-list>li>a.active {
+  color: #ffffff;
+    background: #ededed54;
+}
+
+.wsmenu>.wsmenu-list>li:hover>a {
+  color: #ededed;
+}
+
+.wsmenu>.wsmenu-list>li>ul.sub-menu>li:hover>a {
+  background-color: #d7412e;
+  color: #fff;
+}
+
+.wsmenu>.wsmenu-list>li>ul.sub-menu>li>ul.sub-menu>li:hover>a {
+  background-color: #d7412e;
+  color: #fff;
+}
+
+.wsmenu>.wsmenu-list>li>ul.sub-menu>li>ul.sub-menu>li>ul.sub-menu>li:hover a {
+  background-color: #d7412e;
+  color: #fff;
+}

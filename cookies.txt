@@ -1,0 +1,10 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+track.nopaperforms.com	TRUE	/	FALSE	1999999999	AWSALB	qc4g+ObfmRhlIdd/BDAyTghnE34bAqD/b1cvtlgIQI1gWaglxrH/WqFlCt48pZefgZxBY6dvOtF5hhPcA3mbhQPojpZyToBSbb9mJYdO8V1ZRtL4qCbjm6o6M4Wt
+track.nopaperforms.com	TRUE	/	FALSE	1999999999	AWSALBCORS	qc4g+ObfmRhlIdd/BDAyTghnE34bAqD/b1cvtlgIQI1gWaglxrH/WqFlCt48pZefgZxBY6dvOtF5hhPcA3mbhQPojpZyToBSbb9mJYdO8V1ZRtL4qCbjm6o6M4Wt
+track.nopaperforms.com	TRUE	/	FALSE	1999999999	SameSite	None
+www.bharathuniv.ac.in	TRUE	/	FALSE	1999999999	PHPSESSID	qh3fkm5bn66ccepc5be5fd5ab2
+widgets.nopaperforms.com	TRUE	/	FALSE	1999999999	AWSALB	jJ3ZxcwkxiJ7kd8mjnZ+QfzkEa5GyWbh10WtCmFs4gYSA5UbKPdpylQSxwoVUa3PGr8kYPHeptDsJ6y3EFa0Tnq+Xnvjl1duWA7omVhdawycxVag8s/6muGnMuwo
+widgets.nopaperforms.com	TRUE	/	FALSE	1999999999	AWSALBCORS	jJ3ZxcwkxiJ7kd8mjnZ+QfzkEa5GyWbh10WtCmFs4gYSA5UbKPdpylQSxwoVUa3PGr8kYPHeptDsJ6y3EFa0Tnq+Xnvjl1duWA7omVhdawycxVag8s/6muGnMuwo
+widgets.nopaperforms.com	TRUE	/	FALSE	1999999999	SameSite	None
+
